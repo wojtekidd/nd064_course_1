@@ -9,7 +9,7 @@ app = Flask(__name__)
 @app.route("/status")
 def status():
     response = app.response_class(
-        response=json.dumps({"result":"OK HEALTHY!"}),
+        response=json.dumps({"result":"OK HEALTHY!!"}),
         status=200,
         mimetype="application/json"
     )
